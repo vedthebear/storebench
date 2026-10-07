@@ -1,0 +1,62 @@
+[
+ {
+  "trajectory": "cash-crunch__s7__HJR93q3",
+  "task": "cash-crunch",
+  "seed": 7,
+  "reward_composite": 0.2598
+ },
+ {
+  "trajectory": "cash-crunch__s11__9oA5QFJ",
+  "task": "cash-crunch",
+  "seed": 11,
+  "reward_composite": 0.3046
+ },
+ {
+  "trajectory": "counter-punch__s7__yEBzNwi",
+  "task": "counter-punch",
+  "seed": 7,
+  "reward_composite": 0.1631
+ },
+ {
+  "trajectory": "counter-punch__s13__5kHWt7X",
+  "task": "counter-punch",
+  "seed": 13,
+  "reward_composite": 0.5606
+ },
+ {
+  "trajectory": "final-clearance__s11__MaiXGMJ",
+  "task": "final-clearance",
+  "seed": 11,
+  "reward_composite": 0.3631
+ },
+ {
+  "trajectory": "final-clearance__s11__qCoj4fa",
+  "task": "final-clearance",
+  "seed": 11,
+  "reward_composite": 0.555
+ },
+ {
+  "trajectory": "season-flip__s7__McTjrWu",
+  "task": "season-flip",
+  "seed": 7,
+  "reward_composite": 0.5018
+ },
+ {
+  "trajectory": "season-flip__s13__X93UfR8",
+  "task": "season-flip",
+  "seed": 13,
+  "reward_composite": 0.2175
+ },
+ {
+  "trajectory": "short-runway__s11__Yg2sems",
+  "task": "short-runway",
+  "seed": 11,
+  "reward_composite": 0.8057
+ },
+ {
+  "trajectory": "short-runway__s13__dMD5Dse",
+  "task": "short-runway",
+  "seed": 13,
+  "reward_composite": 0.6887
+ }
+]

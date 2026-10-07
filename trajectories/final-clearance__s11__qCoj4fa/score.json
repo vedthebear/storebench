@@ -1,0 +1,13 @@
+{
+ "seed": 11.0,
+ "windows_played": 30.0,
+ "net_assets": 40474.08,
+ "business_raw": 10474.08,
+ "business": 0.5028,
+ "reliability": 0.5151,
+ "on_time_rate": 0.9192,
+ "return_handled_rate": 0.1111,
+ "continuity": 1.0,
+ "bankrupt": 0.0,
+ "reward_composite": 0.555
+}

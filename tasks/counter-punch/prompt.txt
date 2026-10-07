@@ -1,0 +1,27 @@
+You are the operator of Ostrelle, a mid-size online apparel store, for
+the next 7 days. The store is live: customers order around the clock,
+returns arrive, suppliers' prices drift, and the platform fines late
+shipments, stockout cancellations and ignored returns.
+
+A discount competitor has just opened with a catalog that overlaps
+heavily with yours and prices set well under the going rate. They are
+loud about it - expect them to pull shoppers from your busiest lines
+immediately. A week is not long enough to out-assort them; what you
+charge, and where, is the game.
+
+You are judged on the store's net assets (cash + deposit + money in transit +
+receivables) at the end of your term, after all in-flight business
+settles and leftover stock liquidates at salvage value. Salvage recovers
+only a fraction of cost.
+
+Time is windowed: each window is 12 hours of store time with a budget of 12 tool
+operations (the store header on every result shows what's left). Spending
+the last operation or calling end_window advances the clock. Ship new
+orders within 1 day: unshipped orders are handed to the platform's
+fulfillment service, which ships on time but charges a per-order fee.
+Late self-shipments draw fines and rating damage, and an order nobody
+can ship is canceled with a fine. Respond to returns within 3 days, and
+keep popular products in stock - the demand you fail to serve is gone.
+Prices are yours to set; demand is price-elastic around each product's
+reference price. The supplier market (search_supply_catalog) restocks
+what you sell - mind MOQs, lead times and supplier quality.

@@ -1,0 +1,37 @@
+{
+ "env": "storefront-live",
+ "task": null,
+ "seed": null,
+ "model": "vllm:storefront-policy",
+ "context_policy": {
+  "profile": "compaction",
+  "history_mode": "compaction",
+  "state_mode": "off",
+  "mask_scope": "all",
+  "keep_recent_turns": 3,
+  "min_result_chars": 1000,
+  "max_argument_chars": 500,
+  "compaction_trigger_chars": 288000,
+  "summary_model": "vllm:storefront-policy",
+  "summary_max_tokens": 10000
+ },
+ "max_turns": 150,
+ "turns": 72,
+ "metrics": {
+  "parse_failures": 0,
+  "empty_responses": 0,
+  "nudges": 1,
+  "model_retries": 0,
+  "usage_missing_turns": 0,
+  "input_tokens": 4161619,
+  "output_tokens": 25673,
+  "summary_calls": 1,
+  "summary_input_tokens": 103497,
+  "summary_output_tokens": 2557
+ },
+ "ended_by": "signal",
+ "termination_class": "model",
+ "normal_completion": true,
+ "exit_code": 0,
+ "wall_seconds": 849.4
+}

@@ -1,0 +1,869 @@
+{
+ "tasks": {
+  "cash-crunch": {
+   "13": {
+    "seed": 13,
+    "business_zero_raw": 16356.1,
+    "business_scale": 1814.74,
+    "oracle": "rule-based",
+    "threshold": 0.72,
+    "anchors": {
+     "do-nothing": {
+      "business_raw": 11040.79,
+      "business_normalized": 0.0,
+      "reward_composite": 0.0,
+      "reliability": 0.0,
+      "continuity": 0.0,
+      "net_assets": 22040.79
+     },
+     "absentee": {
+      "business_raw": 16356.1,
+      "business_normalized": 0.0,
+      "reward_composite": 0.1,
+      "reliability": 0.0,
+      "continuity": 1.0,
+      "net_assets": 27356.1
+     },
+     "blast-list": {
+      "business_raw": 17419.63,
+      "business_normalized": 0.5861,
+      "reward_composite": 0.6001,
+      "reliability": 0.4491,
+      "continuity": 1.0,
+      "net_assets": 28419.63
+     },
+     "rule-based": {
+      "business_raw": 17626.42,
+      "business_normalized": 0.7,
+      "reward_composite": 0.73,
+      "reliability": 0.7,
+      "continuity": 1.0,
+      "net_assets": 28626.42
+     },
+     "smart-triage": {
+      "business_raw": 17626.42,
+      "business_normalized": 0.7,
+      "reward_composite": 0.73,
+      "reliability": 0.7,
+      "continuity": 1.0,
+      "net_assets": 28626.42
+     },
+     "exploiter": {
+      "business_raw": 13912.53,
+      "business_normalized": 0.0,
+      "reward_composite": 0.0422,
+      "reliability": 0.0445,
+      "continuity": 0.3333,
+      "net_assets": 24912.53
+     }
+    }
+   },
+   "7": {
+    "seed": 7,
+    "business_zero_raw": 15873.69,
+    "business_scale": 1828.91,
+    "oracle": "rule-based",
+    "threshold": 0.7095,
+    "anchors": {
+     "do-nothing": {
+      "business_raw": 11040.79,
+      "business_normalized": 0.0,
+      "reward_composite": 0.0,
+      "reliability": 0.0,
+      "continuity": 0.0,
+      "net_assets": 22040.79
+     },
+     "absentee": {
+      "business_raw": 15873.69,
+      "business_normalized": 0.0,
+      "reward_composite": 0.1,
+      "reliability": 0.0,
+      "continuity": 1.0,
+      "net_assets": 26873.69
+     },
+     "blast-list": {
+      "business_raw": 17023.44,
+      "business_normalized": 0.6287,
+      "reward_composite": 0.6298,
+      "reliability": 0.4486,
+      "continuity": 1.0,
+      "net_assets": 28023.44
+     },
+     "rule-based": {
+      "business_raw": 17153.93,
+      "business_normalized": 0.7,
+      "reward_composite": 0.7195,
+      "reliability": 0.6476,
+      "continuity": 1.0,
+      "net_assets": 28153.93
+     },
+     "smart-triage": {
+      "business_raw": 17153.93,
+      "business_normalized": 0.7,
+      "reward_composite": 0.7195,
+      "reliability": 0.6476,
+      "continuity": 1.0,
+      "net_assets": 28153.93
+     },
+     "exploiter": {
+      "business_raw": 13332.79,
+      "business_normalized": 0.0,
+      "reward_composite": 0.0422,
+      "reliability": 0.0445,
+      "continuity": 0.3333,
+      "net_assets": 24332.79
+     }
+    }
+   },
+   "11": {
+    "seed": 11,
+    "business_zero_raw": 15538.32,
+    "business_scale": 1834.21,
+    "oracle": "rule-based",
+    "threshold": 0.7026,
+    "anchors": {
+     "do-nothing": {
+      "business_raw": 11040.79,
+      "business_normalized": 0.0,
+      "reward_composite": 0.0,
+      "reliability": 0.0,
+      "continuity": 0.0,
+      "net_assets": 22040.79
+     },
+     "absentee": {
+      "business_raw": 15538.32,
+      "business_normalized": 0.0,
+      "reward_composite": 0.1,
+      "reliability": 0.0,
+      "continuity": 1.0,
+      "net_assets": 26538.32
+     },
+     "blast-list": {
+      "business_raw": 16780.92,
+      "business_normalized": 0.6775,
+      "reward_composite": 0.6639,
+      "reliability": 0.4481,
+      "continuity": 1.0,
+      "net_assets": 27780.92
+     },
+     "rule-based": {
+      "business_raw": 16822.27,
+      "business_normalized": 0.7,
+      "reward_composite": 0.7126,
+      "reliability": 0.6132,
+      "continuity": 1.0,
+      "net_assets": 27822.27
+     },
+     "smart-triage": {
+      "business_raw": 16822.27,
+      "business_normalized": 0.7,
+      "reward_composite": 0.7126,
+      "reliability": 0.6132,
+      "continuity": 1.0,
+      "net_assets": 27822.27
+     },
+     "exploiter": {
+      "business_raw": 13737.68,
+      "business_normalized": 0.0,
+      "reward_composite": 0.0422,
+      "reliability": 0.0445,
+      "continuity": 0.3333,
+      "net_assets": 24737.68
+     }
+    }
+   }
+  },
+  "counter-punch": {
+   "7": {
+    "seed": 7,
+    "business_zero_raw": 14258.4,
+    "business_scale": 685.41,
+    "oracle": "rule-based",
+    "threshold": 0.6798,
+    "anchors": {
+     "do-nothing": {
+      "business_raw": 11465.16,
+      "business_normalized": 0.0,
+      "reward_composite": 0.0,
+      "reliability": 0.0,
+      "continuity": 0.0,
+      "net_assets": 41465.16
+     },
+     "absentee": {
+      "business_raw": 14258.4,
+      "business_normalized": 0.0,
+      "reward_composite": 0.1,
+      "reliability": 0.0,
+      "continuity": 1.0,
+      "net_assets": 44258.4
+     },
+     "blast-list": {
+      "business_raw": 14696.87,
+      "business_normalized": 0.6397,
+      "reward_composite": 0.6258,
+      "reliability": 0.39,
+      "continuity": 1.0,
+      "net_assets": 44696.87
+     },
+     "rule-based": {
+      "business_raw": 14738.19,
+      "business_normalized": 0.7,
+      "reward_composite": 0.6898,
+      "reliability": 0.4988,
+      "continuity": 1.0,
+      "net_assets": 44738.19
+     },
+     "smart-triage": {
+      "business_raw": 14738.19,
+      "business_normalized": 0.7,
+      "reward_composite": 0.6898,
+      "reliability": 0.4988,
+      "continuity": 1.0,
+      "net_assets": 44738.19
+     },
+     "exploiter": {
+      "business_raw": 13018.58,
+      "business_normalized": 0.0,
+      "reward_composite": 0.0375,
+      "reliability": 0.0445,
+      "continuity": 0.2857,
+      "net_assets": 43018.58
+     }
+    }
+   },
+   "11": {
+    "seed": 11,
+    "business_zero_raw": 14404.54,
+    "business_scale": 810.31,
+    "oracle": "rule-based",
+    "threshold": 0.6909,
+    "anchors": {
+     "do-nothing": {
+      "business_raw": 11465.16,
+      "business_normalized": 0.0,
+      "reward_composite": 0.0,
+      "reliability": 0.0,
+      "continuity": 0.0,
+      "net_assets": 41465.16
+     },
+     "absentee": {
+      "business_raw": 14404.54,
+      "business_normalized": 0.0,
+      "reward_composite": 0.1,
+      "reliability": 0.0,
+      "continuity": 1.0,
+      "net_assets": 44404.54
+     },
+     "blast-list": {
+      "business_raw": 14884.99,
+      "business_normalized": 0.5929,
+      "reward_composite": 0.5926,
+      "reliability": 0.3878,
+      "continuity": 1.0,
+      "net_assets": 44884.99
+     },
+     "rule-based": {
+      "business_raw": 14971.76,
+      "business_normalized": 0.7,
+      "reward_composite": 0.7009,
+      "reliability": 0.5544,
+      "continuity": 1.0,
+      "net_assets": 44971.76
+     },
+     "smart-triage": {
+      "business_raw": 14971.76,
+      "business_normalized": 0.7,
+      "reward_composite": 0.7009,
+      "reliability": 0.5544,
+      "continuity": 1.0,
+      "net_assets": 44971.76
+     },
+     "exploiter": {
+      "business_raw": 13113.54,
+      "business_normalized": 0.0,
+      "reward_composite": 0.0375,
+      "reliability": 0.0445,
+      "continuity": 0.2857,
+      "net_assets": 43113.54
+     }
+    }
+   },
+   "13": {
+    "seed": 13,
+    "business_zero_raw": 14746.82,
+    "business_scale": 960.16,
+    "oracle": "rule-based",
+    "threshold": 0.6926,
+    "anchors": {
+     "do-nothing": {
+      "business_raw": 11465.16,
+      "business_normalized": 0.0,
+      "reward_composite": 0.0,
+      "reliability": 0.0,
+      "continuity": 0.0,
+      "net_assets": 41465.16
+     },
+     "absentee": {
+      "business_raw": 14746.82,
+      "business_normalized": 0.0,
+      "reward_composite": 0.1,
+      "reliability": 0.0,
+      "continuity": 1.0,
+      "net_assets": 44746.82
+     },
+     "blast-list": {
+      "business_raw": 15282.06,
+      "business_normalized": 0.5574,
+      "reward_composite": 0.5694,
+      "reliability": 0.3962,
+      "continuity": 1.0,
+      "net_assets": 45282.06
+     },
+     "rule-based": {
+      "business_raw": 15418.93,
+      "business_normalized": 0.7,
+      "reward_composite": 0.7026,
+      "reliability": 0.5629,
+      "continuity": 1.0,
+      "net_assets": 45418.93
+     },
+     "smart-triage": {
+      "business_raw": 15418.93,
+      "business_normalized": 0.7,
+      "reward_composite": 0.7026,
+      "reliability": 0.5629,
+      "continuity": 1.0,
+      "net_assets": 45418.93
+     },
+     "exploiter": {
+      "business_raw": 12943.92,
+      "business_normalized": 0.0,
+      "reward_composite": 0.0375,
+      "reliability": 0.0445,
+      "continuity": 0.2857,
+      "net_assets": 42943.92
+     }
+    }
+   }
+  },
+  "final-clearance": {
+   "11": {
+    "seed": 11,
+    "business_zero_raw": 9342.58,
+    "business_scale": 2250.27,
+    "oracle": "smart-triage",
+    "threshold": 0.7,
+    "anchors": {
+     "do-nothing": {
+      "business_raw": 4725.27,
+      "business_normalized": 0.0,
+      "reward_composite": 0.0,
+      "reliability": 0.0,
+      "continuity": 0.0,
+      "net_assets": 34725.27
+     },
+     "absentee": {
+      "business_raw": 9342.58,
+      "business_normalized": 0.0,
+      "reward_composite": 0.1,
+      "reliability": 0.0,
+      "continuity": 1.0,
+      "net_assets": 39342.58
+     },
+     "blast-list": {
+      "business_raw": 10707.76,
+      "business_normalized": 0.6067,
+      "reward_composite": 0.6136,
+      "reliability": 0.4444,
+      "continuity": 1.0,
+      "net_assets": 40707.76
+     },
+     "rule-based": {
+      "business_raw": 10808.24,
+      "business_normalized": 0.6513,
+      "reward_composite": 0.678,
+      "reliability": 0.6105,
+      "continuity": 1.0,
+      "net_assets": 40808.24
+     },
+     "smart-triage": {
+      "business_raw": 10917.77,
+      "business_normalized": 0.7,
+      "reward_composite": 0.7122,
+      "reliability": 0.6111,
+      "continuity": 1.0,
+      "net_assets": 40917.77
+     },
+     "exploiter": {
+      "business_raw": 7458.96,
+      "business_normalized": 0.0,
+      "reward_composite": 0.0422,
+      "reliability": 0.0445,
+      "continuity": 0.3333,
+      "net_assets": 37458.96
+     }
+    }
+   },
+   "7": {
+    "seed": 7,
+    "business_zero_raw": 9997.88,
+    "business_scale": 2381.77,
+    "oracle": "smart-triage",
+    "threshold": 0.7023,
+    "anchors": {
+     "do-nothing": {
+      "business_raw": 4725.27,
+      "business_normalized": 0.0,
+      "reward_composite": 0.0,
+      "reliability": 0.0,
+      "continuity": 0.0,
+      "net_assets": 34725.27
+     },
+     "absentee": {
+      "business_raw": 9997.88,
+      "business_normalized": 0.0,
+      "reward_composite": 0.1,
+      "reliability": 0.0,
+      "continuity": 1.0,
+      "net_assets": 39997.88
+     },
+     "blast-list": {
+      "business_raw": 11649.03,
+      "business_normalized": 0.6932,
+      "reward_composite": 0.6739,
+      "reliability": 0.4434,
+      "continuity": 1.0,
+      "net_assets": 41649.03
+     },
+     "rule-based": {
+      "business_raw": 11653.12,
+      "business_normalized": 0.695,
+      "reward_composite": 0.7123,
+      "reliability": 0.6292,
+      "continuity": 1.0,
+      "net_assets": 41653.12
+     },
+     "smart-triage": {
+      "business_raw": 11665.12,
+      "business_normalized": 0.7,
+      "reward_composite": 0.7158,
+      "reliability": 0.6292,
+      "continuity": 1.0,
+      "net_assets": 41665.12
+     },
+     "exploiter": {
+      "business_raw": 7164.6,
+      "business_normalized": 0.0,
+      "reward_composite": 0.0422,
+      "reliability": 0.0445,
+      "continuity": 0.3333,
+      "net_assets": 37164.6
+     }
+    }
+   },
+   "13": {
+    "seed": 13,
+    "business_zero_raw": 10481.79,
+    "business_scale": 1959.84,
+    "oracle": "rule-based",
+    "threshold": 0.7148,
+    "anchors": {
+     "do-nothing": {
+      "business_raw": 4725.27,
+      "business_normalized": 0.0,
+      "reward_composite": 0.0,
+      "reliability": 0.0,
+      "continuity": 0.0,
+      "net_assets": 34725.27
+     },
+     "absentee": {
+      "business_raw": 10481.79,
+      "business_normalized": 0.0,
+      "reward_composite": 0.1,
+      "reliability": 0.0,
+      "continuity": 1.0,
+      "net_assets": 40481.79
+     },
+     "blast-list": {
+      "business_raw": 11875.63,
+      "business_normalized": 0.7112,
+      "reward_composite": 0.6876,
+      "reliability": 0.4486,
+      "continuity": 1.0,
+      "net_assets": 41875.63
+     },
+     "rule-based": {
+      "business_raw": 11853.68,
+      "business_normalized": 0.7,
+      "reward_composite": 0.7248,
+      "reliability": 0.6738,
+      "continuity": 1.0,
+      "net_assets": 41853.68
+     },
+     "smart-triage": {
+      "business_raw": 11853.68,
+      "business_normalized": 0.7,
+      "reward_composite": 0.7248,
+      "reliability": 0.6738,
+      "continuity": 1.0,
+      "net_assets": 41853.68
+     },
+     "exploiter": {
+      "business_raw": 7467.96,
+      "business_normalized": 0.0,
+      "reward_composite": 0.0422,
+      "reliability": 0.0445,
+      "continuity": 0.3333,
+      "net_assets": 37467.96
+     }
+    }
+   }
+  },
+  "season-flip": {
+   "11": {
+    "seed": 11,
+    "business_zero_raw": 15112.19,
+    "business_scale": 547.94,
+    "oracle": "rule-based",
+    "threshold": 0.67,
+    "anchors": {
+     "do-nothing": {
+      "business_raw": 11441.7,
+      "business_normalized": 0.0,
+      "reward_composite": 0.0,
+      "reliability": 0.0,
+      "continuity": 0.0,
+      "net_assets": 41441.7
+     },
+     "absentee": {
+      "business_raw": 15112.19,
+      "business_normalized": 0.0,
+      "reward_composite": 0.1,
+      "reliability": 0.0,
+      "continuity": 1.0,
+      "net_assets": 45112.19
+     },
+     "blast-list": {
+      "business_raw": 15375.74,
+      "business_normalized": 0.481,
+      "reward_composite": 0.5184,
+      "reliability": 0.4083,
+      "continuity": 1.0,
+      "net_assets": 45375.74
+     },
+     "rule-based": {
+      "business_raw": 15495.75,
+      "business_normalized": 0.7,
+      "reward_composite": 0.705,
+      "reliability": 0.575,
+      "continuity": 1.0,
+      "net_assets": 45495.75
+     },
+     "smart-triage": {
+      "business_raw": 15455.75,
+      "business_normalized": 0.627,
+      "reward_composite": 0.6428,
+      "reliability": 0.5194,
+      "continuity": 1.0,
+      "net_assets": 45455.75
+     },
+     "exploiter": {
+      "business_raw": 13222.99,
+      "business_normalized": 0.0,
+      "reward_composite": 0.0375,
+      "reliability": 0.0445,
+      "continuity": 0.2857,
+      "net_assets": 43222.99
+     }
+    }
+   },
+   "13": {
+    "seed": 13,
+    "business_zero_raw": 16865.29,
+    "business_scale": 1992.46,
+    "oracle": "smart-triage",
+    "threshold": 0.6966,
+    "anchors": {
+     "do-nothing": {
+      "business_raw": 11287.62,
+      "business_normalized": 0.0,
+      "reward_composite": 0.0,
+      "reliability": 0.0,
+      "continuity": 0.0,
+      "net_assets": 41287.62
+     },
+     "absentee": {
+      "business_raw": 16865.29,
+      "business_normalized": 0.0,
+      "reward_composite": 0.1,
+      "reliability": 0.0,
+      "continuity": 1.0,
+      "net_assets": 46865.29
+     },
+     "blast-list": {
+      "business_raw": 18091.83,
+      "business_normalized": 0.6156,
+      "reward_composite": 0.6213,
+      "reliability": 0.4518,
+      "continuity": 1.0,
+      "net_assets": 48091.83
+     },
+     "rule-based": {
+      "business_raw": 18219.15,
+      "business_normalized": 0.6795,
+      "reward_composite": 0.7066,
+      "reliability": 0.6547,
+      "continuity": 1.0,
+      "net_assets": 48219.15
+     },
+     "smart-triage": {
+      "business_raw": 18260.01,
+      "business_normalized": 0.7,
+      "reward_composite": 0.7202,
+      "reliability": 0.6508,
+      "continuity": 1.0,
+      "net_assets": 48260.01
+     },
+     "exploiter": {
+      "business_raw": 14384.64,
+      "business_normalized": 0.0,
+      "reward_composite": 0.0422,
+      "reliability": 0.0445,
+      "continuity": 0.3333,
+      "net_assets": 44384.64
+     }
+    }
+   },
+   "7": {
+    "seed": 7,
+    "business_zero_raw": 16652.01,
+    "business_scale": 1799.44,
+    "oracle": "smart-triage",
+    "threshold": 0.7014,
+    "anchors": {
+     "do-nothing": {
+      "business_raw": 11287.62,
+      "business_normalized": 0.0,
+      "reward_composite": 0.0,
+      "reliability": 0.0,
+      "continuity": 0.0,
+      "net_assets": 41287.62
+     },
+     "absentee": {
+      "business_raw": 16652.01,
+      "business_normalized": 0.0,
+      "reward_composite": 0.1,
+      "reliability": 0.0,
+      "continuity": 1.0,
+      "net_assets": 46652.01
+     },
+     "blast-list": {
+      "business_raw": 17750.27,
+      "business_normalized": 0.6103,
+      "reward_composite": 0.6173,
+      "reliability": 0.4505,
+      "continuity": 1.0,
+      "net_assets": 47750.27
+     },
+     "rule-based": {
+      "business_raw": 17899.62,
+      "business_normalized": 0.6933,
+      "reward_composite": 0.7114,
+      "reliability": 0.6305,
+      "continuity": 1.0,
+      "net_assets": 47899.62
+     },
+     "smart-triage": {
+      "business_raw": 17911.62,
+      "business_normalized": 0.7,
+      "reward_composite": 0.7161,
+      "reliability": 0.6305,
+      "continuity": 1.0,
+      "net_assets": 47911.62
+     },
+     "exploiter": {
+      "business_raw": 13779.1,
+      "business_normalized": 0.0,
+      "reward_composite": 0.0422,
+      "reliability": 0.0445,
+      "continuity": 0.3333,
+      "net_assets": 43779.1
+     }
+    }
+   }
+  },
+  "short-runway": {
+   "11": {
+    "seed": 11,
+    "business_zero_raw": 15205.79,
+    "business_scale": 2093.51,
+    "oracle": "rule-based",
+    "threshold": 0.7025,
+    "anchors": {
+     "do-nothing": {
+      "business_raw": 11012.79,
+      "business_normalized": 0.0,
+      "reward_composite": 0.0,
+      "reliability": 0.0,
+      "continuity": 0.0,
+      "net_assets": 41012.79
+     },
+     "absentee": {
+      "business_raw": 15205.79,
+      "business_normalized": 0.0,
+      "reward_composite": 0.1,
+      "reliability": 0.0,
+      "continuity": 1.0,
+      "net_assets": 45205.79
+     },
+     "blast-list": {
+      "business_raw": 16629.89,
+      "business_normalized": 0.6802,
+      "reward_composite": 0.6657,
+      "reliability": 0.4476,
+      "continuity": 1.0,
+      "net_assets": 46629.89
+     },
+     "rule-based": {
+      "business_raw": 16671.25,
+      "business_normalized": 0.7,
+      "reward_composite": 0.7125,
+      "reliability": 0.6127,
+      "continuity": 1.0,
+      "net_assets": 46671.25
+     },
+     "smart-triage": {
+      "business_raw": 16671.25,
+      "business_normalized": 0.7,
+      "reward_composite": 0.7125,
+      "reliability": 0.6127,
+      "continuity": 1.0,
+      "net_assets": 46671.25
+     },
+     "exploiter": {
+      "business_raw": 13709.69,
+      "business_normalized": 0.0,
+      "reward_composite": 0.0422,
+      "reliability": 0.0445,
+      "continuity": 0.3333,
+      "net_assets": 43709.69
+     }
+    }
+   },
+   "13": {
+    "seed": 13,
+    "business_zero_raw": 16078.94,
+    "business_scale": 1862.2,
+    "oracle": "rule-based",
+    "threshold": 0.7196,
+    "anchors": {
+     "do-nothing": {
+      "business_raw": 11012.79,
+      "business_normalized": 0.0,
+      "reward_composite": 0.0,
+      "reliability": 0.0,
+      "continuity": 0.0,
+      "net_assets": 41012.79
+     },
+     "absentee": {
+      "business_raw": 16078.94,
+      "business_normalized": 0.0,
+      "reward_composite": 0.1,
+      "reliability": 0.0,
+      "continuity": 1.0,
+      "net_assets": 46078.94
+     },
+     "blast-list": {
+      "business_raw": 17180.15,
+      "business_normalized": 0.5913,
+      "reward_composite": 0.6034,
+      "reliability": 0.4476,
+      "continuity": 1.0,
+      "net_assets": 47180.15
+     },
+     "rule-based": {
+      "business_raw": 17382.48,
+      "business_normalized": 0.7,
+      "reward_composite": 0.7296,
+      "reliability": 0.6981,
+      "continuity": 1.0,
+      "net_assets": 47382.48
+     },
+     "smart-triage": {
+      "business_raw": 17382.48,
+      "business_normalized": 0.7,
+      "reward_composite": 0.7296,
+      "reliability": 0.6981,
+      "continuity": 1.0,
+      "net_assets": 47382.48
+     },
+     "exploiter": {
+      "business_raw": 13734.38,
+      "business_normalized": 0.0,
+      "reward_composite": 0.0422,
+      "reliability": 0.0445,
+      "continuity": 0.3333,
+      "net_assets": 43734.38
+     }
+    }
+   },
+   "7": {
+    "seed": 7,
+    "business_zero_raw": 15981.43,
+    "business_scale": 1903.16,
+    "oracle": "rule-based",
+    "threshold": 0.7093,
+    "anchors": {
+     "do-nothing": {
+      "business_raw": 11012.79,
+      "business_normalized": 0.0,
+      "reward_composite": 0.0,
+      "reliability": 0.0,
+      "continuity": 0.0,
+      "net_assets": 41012.79
+     },
+     "absentee": {
+      "business_raw": 15981.43,
+      "business_normalized": 0.0,
+      "reward_composite": 0.1,
+      "reliability": 0.0,
+      "continuity": 1.0,
+      "net_assets": 45981.43
+     },
+     "blast-list": {
+      "business_raw": 17170.73,
+      "business_normalized": 0.6249,
+      "reward_composite": 0.627,
+      "reliability": 0.4481,
+      "continuity": 1.0,
+      "net_assets": 47170.73
+     },
+     "rule-based": {
+      "business_raw": 17313.64,
+      "business_normalized": 0.7,
+      "reward_composite": 0.7193,
+      "reliability": 0.6466,
+      "continuity": 1.0,
+      "net_assets": 47313.64
+     },
+     "smart-triage": {
+      "business_raw": 17313.64,
+      "business_normalized": 0.7,
+      "reward_composite": 0.7193,
+      "reliability": 0.6466,
+      "continuity": 1.0,
+      "net_assets": 47313.64
+     },
+     "exploiter": {
+      "business_raw": 13416.21,
+      "business_normalized": 0.0,
+      "reward_composite": 0.0422,
+      "reliability": 0.0445,
+      "continuity": 0.3333,
+      "net_assets": 43416.21
+     }
+    }
+   }
+  }
+ }
+}
