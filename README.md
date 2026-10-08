@@ -10,6 +10,11 @@ a production-grade commerce backend, and grades sustained economic operation of
 the store (net-asset growth, service reliability, and continuity of operation)
 against scripted anchor policies.
 
+![Figure 1: StoreBench overview showing the commerce agent, merchant tools, store and supplier market, hidden market dynamics, scoring, and human-expert interface.](assets/storebench-overview.png)
+
+*Figure 1. StoreBench overview. Agents and human experts operate through the same
+merchant tools, operation budgets, and grading. Icons: Microsoft Fluent Emoji (MIT).*
+
 ## Held-out evaluation set
 
 **StoreBench is evaluated on a held-out test set that is not publicly released.**
