@@ -34,14 +34,14 @@ release (after publication); see *Access* below.
 
 **Included (this bundle):**
 
-- `tasks/` — the definitions (`task.toml`) and rendered prompts for a sample of
+- `tasks/`: the definitions (`task.toml`) and rendered prompts for a sample of
 training-split tasks.
-- `trajectories/` — two example trajectories per training task (graded terminal
+- `trajectories/`: two example trajectories per training task (graded terminal
 ledger + a redacted run summary).
-- `scoring/` — the complete scoring definition (`composite.py`) and a standalone
+- `scoring/`: the complete scoring definition (`composite.py`) and a standalone
 re-grader (`regrade.py`) that reproduces each trajectory's official composite
 score from its ledger and the shipped calibration.
-- `docs/` — the task and scoring format.
+- `docs/`: the task and scoring format.
 
 **Withheld:** the simulation engine, the full container image, the complete task
 suite, and the entire evaluation set (every evaluation task's prompt,

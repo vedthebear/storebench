@@ -4,18 +4,18 @@
 
 Each task is a single file with the following blocks:
 
-- **`[task]`** — `id`, `title`, and `prompt` (the full operator instruction shown
+- **`[task]`**: `id`, `title`, and `prompt` (the full operator instruction shown
   to the agent).
-- **`[shift]`** — `horizon_days`, `window_hours` (the length of one operation
+- **`[shift]`**: `horizon_days`, `window_hours` (the length of one operation
   window), `ops_per_window` (the tool-operation budget per window), `listing_cap`,
   and the `start` timestamp.
-- **`[setup]`** — the opening-inventory configuration (e.g. `trim_stock_days`,
+- **`[setup]`**: the opening-inventory configuration (e.g. `trim_stock_days`,
   `trim_stock_floor`).
-- **`[economics]`** — task-specific overrides of the store's economics and
+- **`[economics]`**: task-specific overrides of the store's economics and
   platform terms (e.g. `starting_cash`, `deposit`, `return_escalate_days`).
-- **`[competition]`** (optional) — scripted rival stores that compete for
+- **`[competition]`** (optional): scripted rival stores that compete for
   demand share.
-- **`[[events]]`** — the scripted disruptions. Each event has a `kind`
+- **`[[events]]`**: the scripted disruptions. Each event has a `kind`
   (e.g. `demand_multiplier`, `supply_shock_country`, `market_crash`,
   `quality_shift`), a fire time `at_days`, magnitude parameters, and an
   **information channel** determined by its fields:
@@ -33,15 +33,15 @@ harness latency.
 
 Each trajectory directory contains:
 
-- **`score.json`** — the graded terminal ledger:
-  - `business_raw` — net-asset growth over the shift.
-  - `business` — `business_raw` normalized against calibration, clipped to [0, 1].
-  - `on_time_rate`, `return_handled_rate` — the two service rates.
-  - `reliability` — mean of the two service rates.
-  - `continuity` — fraction of task windows the agent acted in.
+- **`score.json`**: the graded terminal ledger:
+  - `business_raw`: net-asset growth over the shift.
+  - `business`: `business_raw` normalized against calibration, clipped to [0, 1].
+  - `on_time_rate`, `return_handled_rate`: the two service rates.
+  - `reliability`: mean of the two service rates.
+  - `continuity`: fraction of task windows the agent acted in.
   - `net_assets`, `windows_played`, `bankrupt`, `seed`.
-  - `reward_composite` — the official composite score.
-- **`summary.json`** — a redacted run summary (model identifier, turn count,
+  - `reward_composite`: the official composite score.
+- **`summary.json`**: a redacted run summary (model identifier, turn count,
   termination class, aggregate metrics).
 
 ## Composite score

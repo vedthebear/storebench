@@ -1,4 +1,4 @@
-# Datasheet — StoreBench supplementary sample
+# Datasheet: StoreBench supplementary sample
 
 Following the *Datasheets for Datasets* structure.
 
@@ -51,7 +51,7 @@ Following the *Datasheets for Datasets* structure.
 - **Intended.** Understanding the task/scoring format; verifying the scoring is
   reproducible from a ledger; building tooling against the artifact schema.
 - **Not supported.** Running new rollouts, generating demand, re-deriving
-  calibration, or evaluating on the held-out set — these require the environment,
+  calibration, or evaluating on the held-out set; these require the environment,
   which is not distributed.
 
 ## Distribution & maintenance
